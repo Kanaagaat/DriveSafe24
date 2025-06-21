@@ -1,6 +1,6 @@
 html, body{
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-    height: 100vh;
+    
 
 }
 
@@ -21,38 +21,29 @@ h1{
     font-style: normal;
 
 }
-.marketing{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100vh;
 
-    text-align: center;
-}
 
 .contact{
     left:50%;
     margin-left:-25%;
 }
 
+.era, .kana, .begris{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
 @media (max-width: 990px){
     .logo{
-        width: 0px;
-        height: 0px;
+        border-radius: 10px;
+        height: 20rem;
         display: none; 
     }
-    .zag{
-        text-align: center;
-        
-    }
-    .lead{
-        text-align: center;
-        
-    }
-    .ava{
-        display: flex;
-        justify-content: center;
-    }
+
+  
+  
+   
 
   
 

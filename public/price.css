@@ -36,23 +36,7 @@ h1{
 }
 
 @media (max-width: 990px){
-    .logo{
-        width: 0px;
-        height: 0px;
-        display: none; 
-    }
-    .zag{
-        text-align: center;
-        
-    }
-    .lead{
-        text-align: center;
-        
-    }
-    .ava{
-        display: flex;
-        justify-content: center;
-    }
+ 
 
   
 
